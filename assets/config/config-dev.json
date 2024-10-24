@@ -1,0 +1,7 @@
+{
+  "apiBaseUrl": "https://retailar.pl/django",
+  "publicFilesUrl": "",
+  "debugEnabled": true,
+  "reportErrors": true,
+  "activeMapProvider": "openStreet"
+}

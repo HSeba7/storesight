@@ -1,0 +1,60 @@
+name: storesight
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.3.3 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  bloc: ^8.0.1
+  flutter_bloc: ^8.0.1
+  smooth_page_indicator: ^1.0.0+2
+  carousel_slider: ^4.0.0
+  conditional_builder_null_safety: ^0.0.6
+  flutter_svg: ^2.0.10+1
+  google_fonts: ^6.2.1
+  geolocator: ^12.0.0
+  cached_network_image: ^3.2.0
+  another_flushbar: ^1.10.29
+  expandable_text: ^2.3.0
+  image_picker: ^1.1.2
+  page_transition: ^2.0.4
+  shimmer: ^3.0.0
+  shared_preferences: ^2.2.3
+  aws_client: ^0.6.0
+  camera: ^0.11.0+1
+  permission_handler: ^11.3.1
+  url_launcher: ^6.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: "^0.13.1"
+
+flutter_launcher_icons:
+  image_path_android: "assets/images/logo 1.png"
+  image_path_ios: "assets/images/logo 1.png"
+  android: true # can specify file name here e.g. "ic_launcher"
+  ios: true
+  remove_alpha_ios: true
+  background_color_ios: "#000000"
+  adaptive_icon_background: "assets/images/background.png"
+
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/config/
+    - assets/lang/
